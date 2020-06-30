@@ -41,7 +41,7 @@
           <img src="./img/slide-enfant_2.jpg" class="d-block w-100" alt="...">
           <div class="carousel-caption d-none d-md-block">
             <h5>FASHION KIDS</h5>
-            <p>Parceque le bonheur leur va si bien.</p>
+            <p>Parce que le bonheur leur va si bien.</p>
           </div>
         </div>
         <div class="carousel-item">
@@ -67,6 +67,9 @@
         <h2>HAUTS</h2>
         <ol class="articles">
        
+            <li class="article"id="pull1"> <img src="./img/kid (4).jpg" alt="Article 1" >   <div class="info"> <span class="nom_produit">Purple Dress</span>    <span class="categorie">Dress</span> <span class="price">19.99</span>   </div> </li>
+            <li class="article"id="pull2"> <img src="./img/kid (6).jpg" alt="Article 2">   <div class="info"> <span class="nom_produit">Baby Blue</span>    <span class="categorie">Jacket</span> <span class="price">25</span>   </div> </li>
+            <li class="article"id="pull3"> <img src="./img/kid (10).jpg" alt="Article 3">   <div class="info"> <span class="nom_produit">Olive Green</span>    <span class="categorie">T-shirt</span> <span class="price">15.30</span>   </div> </li>
             <li class="article"id="pull1"> <img src="./img/kid (4).jpg" alt="Article 1" >   <div class="info"> <span class="nom_produit">Purple Dress</span>    <span class="categorie">Dress</span> <span class="price">19.99</span>   </div> </li>
             <li class="article"id="pull2"> <img src="./img/kid (6).jpg" alt="Article 2">   <div class="info"> <span class="nom_produit">Baby Blue</span>    <span class="categorie">Jacket</span> <span class="price">25</span>   </div> </li>
             <li class="article"id="pull3"> <img src="./img/kid (10).jpg" alt="Article 3">   <div class="info"> <span class="nom_produit">Olive Green</span>    <span class="categorie">T-shirt</span> <span class="price">15.30</span>   </div> </li>
