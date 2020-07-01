@@ -62,50 +62,50 @@
         <span class="sr-only">Next</span>
       </a>
     </div>
-  </div>
+   </div>
 
-    <ul class="pull">
-        <h2>HAUTS</h2>
-        <ol class="articles">
-       
-            <li class="article"id="pull1"> <img src="./img/haut_femme_1.jpg" alt="Article 1" >   <div class="info"> <span class="nom_produit">Prince de Galles</span>    <span class="categorie">Coat</span> <span class="price">150.50</span>   </div> </li>
-            <li class="article"id="pull2"> <img src="./img/tenu_femme (12).jpg" alt="Article 2">   <div class="info"> <span class="nom_produit">Little Coffee</span>    <span class="categorie">Woolen Sweater</span> <span class="price">70</span>   </div> </li>
-            <li class="article"id="pull3"> <img src="./img/haut_femme_2.jpg" alt="Article 3">   <div class="info"> <span class="nom_produit">So Print</span>    <span class="categorie">Coat</span><span class="price">90</span>   </div> </li>
-        </ol>
-    </ul>    
-           
-           <ul class="pantalon">
-            <h2>BAS</h2>
-            <ol class="articles">
-           
+   <ul class="pull">
+      <h2>HAUTS</h2>
+      <ol class="articles">
+      
+         <li class="article"id="pull1"> <img src="./img/haut_femme_1.jpg" alt="Article 1" >   <div class="info"> <span class="nom_produit">Prince de Galles</span>    <span class="categorie">Coat</span> <span class="price">150.50</span>   </div> </li>
+         <li class="article"id="pull2"> <img src="./img/tenu_femme (12).jpg" alt="Article 2">   <div class="info"> <span class="nom_produit">Little Coffee</span>    <span class="categorie">Woolen Sweater</span> <span class="price">70</span>   </div> </li>
+         <li class="article"id="pull3"> <img src="./img/haut_femme_2.jpg" alt="Article 3">   <div class="info"> <span class="nom_produit">So Print</span>    <span class="categorie">Coat</span><span class="price">90</span>   </div> </li>
+      </ol>
+   </ul>    
+         
+         <ul class="pantalon">
+         <h2>BAS</h2>
+         <ol class="articles">
+         
 
-                <li class="article"id="pantalon1"><img src="./img/tenu_femme (7).jpg" alt="Article 1">    <div class="info"> <span class="nom_produit">Modern Art</span>    <span class="categorie">Skirt</span> <span class="price">22.22</span>   </div>  </li>
-                <li class="article"id="pantalon2"><img src="./img/tenu_femme (10).jpg" alt="Article 2">   <div class="info"> <span class="nom_produit">80's</span>    <span class="categorie">Jean</span> <span class="price">30</span>   </div>  </li>
-                <li class="article"id="pantalon3"><img src="./img/tenu_femme (1).jpg" alt="Article 3">   <div class="info"> <span class="nom_produit">Hera</span>    <span class="categorie">Dress</span> <span class="price">50.55</span>   </div>  </li>
-            </ol>
-        </ul>  
+               <li class="article"id="pantalon1"><img src="./img/tenu_femme (7).jpg" alt="Article 1">    <div class="info"> <span class="nom_produit">Modern Art</span>    <span class="categorie">Skirt</span> <span class="price">22.22</span>   </div>  </li>
+               <li class="article"id="pantalon2"><img src="./img/tenu_femme (10).jpg" alt="Article 2">   <div class="info"> <span class="nom_produit">80's</span>    <span class="categorie">Jean</span> <span class="price">30</span>   </div>  </li>
+               <li class="article"id="pantalon3"><img src="./img/tenu_femme (1).jpg" alt="Article 3">   <div class="info"> <span class="nom_produit">Hera</span>    <span class="categorie">Dress</span> <span class="price">50.55</span>   </div>  </li>
+         </ol>
+      </ul>  
 
-        <ul class="chaussure">
-            <h2>CHAUSSURES</h2>
-            <ol class="articles">
-           
+      <ul class="chaussure">
+         <h2>CHAUSSURES</h2>
+         <ol class="articles">
+         
 
-                <li class="article"id="chaussure1"><img src="./img/she.JPG" alt="Article 1">   <div class="info"> <span class="nom_produit">Blossom</span>    <span class="categorie">Heel</span> <span class="price">30</span>   </div>   </li>
-                <li class="article"id="chaussure2"><img src="./img/snk.PNG" alt="Article 2">  <div class="info"> <span class="nom_produit">Rush</span>    <span class="categorie">Sneaker</span> <span class="price">89.99</span>   </div>   </li>
-                <li class="article"id="chaussure3"><img src="./img/chaussure_femme _1.jpg" alt="Article 3">  <div class="info"> <span class="nom_produit">Spring</span>    <span class="categorie">Heel</span> <span class="price">22.22</span>   </div>   </li>
-                
-            </ol>
-        </ul>  
+               <li class="article"id="chaussure1"><img src="./img/she.JPG" alt="Article 1">   <div class="info"> <span class="nom_produit">Blossom</span>    <span class="categorie">Heel</span> <span class="price">30</span>   </div>   </li>
+               <li class="article"id="chaussure2"><img src="./img/snk.PNG" alt="Article 2">  <div class="info"> <span class="nom_produit">Rush</span>    <span class="categorie">Sneaker</span> <span class="price">89.99</span>   </div>   </li>
+               <li class="article"id="chaussure3"><img src="./img/chaussure_femme _1.jpg" alt="Article 3">  <div class="info"> <span class="nom_produit">Spring</span>    <span class="categorie">Heel</span> <span class="price">22.22</span>   </div>   </li>
+               
+         </ol>
+      </ul>  
 
   
 
-        <a id="upper"  href="#begin"><img src="./img/arrow-alt-circle-up-solid.svg" alt=""></a>
-   
-    <?php include 'utilitaires/footer.php'; ?>
-
-    <?php include 'utilitaires/modal.php'; ?>
+   <img id="upper" src="./img/arrow-alt-circle-up-solid.svg" alt="Revenir en haut">
+ 
+   <?php include 'utilitaires/footer.php'; ?>
+       
+   <?php include 'utilitaires/modal.php'; ?>
     
-    <script type="text/javascript" src="./js/app.js"></script>
+   <script type="text/javascript" src="./js/app.js"></script>
 
 
 </body>

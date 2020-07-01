@@ -61,53 +61,43 @@
         <span class="sr-only">Next</span>
       </a>
     </div>
-  </div>
+   </div>
 
-    <ul class="pull">
-        <h2>HAUTS</h2>
-        <ol class="articles">
-       
-            <li class="article"id="pull1"> <img src="./img/kid (4).jpg" alt="Article 1" >   <div class="info"> <span class="nom_produit">Purple Dress</span>    <span class="categorie">Dress</span> <span class="price">19.99</span>   </div> </li>
-            <li class="article"id="pull2"> <img src="./img/kid (6).jpg" alt="Article 2">   <div class="info"> <span class="nom_produit">Baby Blue</span>    <span class="categorie">Jacket</span> <span class="price">25</span>   </div> </li>
-            <li class="article"id="pull3"> <img src="./img/kid (10).jpg" alt="Article 3">   <div class="info"> <span class="nom_produit">Olive Green</span>    <span class="categorie">T-shirt</span> <span class="price">15.30</span>   </div> </li>
-            <li class="article"id="pull1"> <img src="./img/kid (4).jpg" alt="Article 1" >   <div class="info"> <span class="nom_produit">Purple Dress</span>    <span class="categorie">Dress</span> <span class="price">19.99</span>   </div> </li>
-            <li class="article"id="pull2"> <img src="./img/kid (6).jpg" alt="Article 2">   <div class="info"> <span class="nom_produit">Baby Blue</span>    <span class="categorie">Jacket</span> <span class="price">25</span>   </div> </li>
-            <li class="article"id="pull3"> <img src="./img/kid (10).jpg" alt="Article 3">   <div class="info"> <span class="nom_produit">Olive Green</span>    <span class="categorie">T-shirt</span> <span class="price">15.30</span>   </div> </li>
-        </ol>
-    </ul>    
-           
-           <ul class="pantalon">
-            <h2>PANTALONS</h2>
-            <ol class="articles">
-           
+   <ul class="pull">
+      <h2>HAUTS</h2>
+      <ol class="articles">
+         <li class="article"id="pull1"> <img src="./img/kid (4).jpg" alt="Article 1" >   <div class="info"> <span class="nom_produit">Purple Dress</span>    <span class="categorie">Dress</span> <span class="price">19.99</span>   </div> </li>
+         <li class="article"id="pull2"> <img src="./img/kid (6).jpg" alt="Article 2">   <div class="info"> <span class="nom_produit">Baby Blue</span>    <span class="categorie">Jacket</span> <span class="price">25</span>   </div> </li>
+         <li class="article"id="pull3"> <img src="./img/kid (10).jpg" alt="Article 3">   <div class="info"> <span class="nom_produit">Olive Green</span>    <span class="categorie">T-shirt</span> <span class="price">15.30</span>   </div> </li>
+         <li class="article"id="pull1"> <img src="./img/kid (4).jpg" alt="Article 1" >   <div class="info"> <span class="nom_produit">Purple Dress</span>    <span class="categorie">Dress</span> <span class="price">19.99</span>   </div> </li>
+         <li class="article"id="pull2"> <img src="./img/kid (6).jpg" alt="Article 2">   <div class="info"> <span class="nom_produit">Baby Blue</span>    <span class="categorie">Jacket</span> <span class="price">25</span>   </div> </li>
+         <li class="article"id="pull3"> <img src="./img/kid (10).jpg" alt="Article 3">   <div class="info"> <span class="nom_produit">Olive Green</span>    <span class="categorie">T-shirt</span> <span class="price">15.30</span>   </div> </li>
+      </ol>
+   </ul>    
+         
+   <ul class="pantalon">
+      <h2>PANTALONS</h2>
+      <ol class="articles">
+            <li class="article"id="pantalon1"><img src="./img/kid (7).jpg" alt="Article 1">    <div class="info"> <span class="nom_produit">Deep Grey</span>    <span class="categorie">Survetement</span> <span class="price">30</span>   </div>  </li>
+            <li class="article"id="pantalon2"><img src="./img/kid (11).jpg" alt="Article 2">   <div class="info"> <span class="nom_produit">White Street</span>    <span class="categorie">Jean</span> <span class="price">39.99</span>   </div>  </li>
+            <li class="article"id="pantalon3"><img src="./img/kid (2).jpg" alt="Article 3">   <div class="info"> <span class="nom_produit">Bois De Rose</span>    <span class="categorie">Jean</span> <span class="price">18.99</span>   </div>  </li>
+      </ol>
+   </ul>  
 
-                <li class="article"id="pantalon1"><img src="./img/kid (7).jpg" alt="Article 1">    <div class="info"> <span class="nom_produit">Deep Grey</span>    <span class="categorie">Survetement</span> <span class="price">30</span>   </div>  </li>
-                <li class="article"id="pantalon2"><img src="./img/kid (11).jpg" alt="Article 2">   <div class="info"> <span class="nom_produit">White Street</span>    <span class="categorie">Jean</span> <span class="price">39.99</span>   </div>  </li>
-                <li class="article"id="pantalon3"><img src="./img/kid (2).jpg" alt="Article 3">   <div class="info"> <span class="nom_produit">Bois De Rose</span>    <span class="categorie">Jean</span> <span class="price">18.99</span>   </div>  </li>
-            </ol>
-        </ul>  
+   <ul class="chaussure">
+      <h2>CHAUSSURES</h2>
+      <ol class="articles">
+         <li class="article"id="chaussure1"><img src="./img/kid (1).jpg" alt="Article 1">   <div class="info"> <span class="nom_produit">Map</span>    <span class="categorie">Sneaker</span> <span class="price">45</span>   </div>   </li>
+         <li class="article"id="chaussure2"><img src="./img/kid (8).jpg" alt="Article 2">  <div class="info"> <span class="nom_produit">Girly</span>    <span class="categorie">Kids Boot</span> <span class="price">50.99</span>   </div>   </li>
+         <li class="article"id="chaussure3"><img src="./img/kid (9).jpg" alt="Article 3">  <div class="info"> <span class="nom_produit">Bad Boy</span>    <span class="categorie">Kids Boot</span> <span class="price">50.99</span>   </div>   </li>      
+      </ol>
+   </ul>  
 
-        <ul class="chaussure">
-            <h2>CHAUSSURES</h2>
-            <ol class="articles">
-           
-
-                <li class="article"id="chaussure1"><img src="./img/kid (1).jpg" alt="Article 1">   <div class="info"> <span class="nom_produit">Map</span>    <span class="categorie">Sneaker</span> <span class="price">45</span>   </div>   </li>
-                <li class="article"id="chaussure2"><img src="./img/kid (8).jpg" alt="Article 2">  <div class="info"> <span class="nom_produit">Girly</span>    <span class="categorie">Kids Boot</span> <span class="price">50.99</span>   </div>   </li>
-                <li class="article"id="chaussure3"><img src="./img/kid (9).jpg" alt="Article 3">  <div class="info"> <span class="nom_produit">Bad Boy</span>    <span class="categorie">Kids Boot</span> <span class="price">50.99</span>   </div>   </li>
-                
-            </ol>
-        </ul>  
-
-  
-
-        <a id="upper"  href="#begin"><img src="./img/arrow-alt-circle-up-solid.svg" alt=""></a>
+   <img id="upper" src="./img/arrow-alt-circle-up-solid.svg" alt="Revenir en haut">
  
- <?php include 'utilitaires/footer.php'; ?>
-   
-      
- <?php include 'utilitaires/modal.php'; ?>
-
+   <?php include 'utilitaires/footer.php'; ?>
+         
+   <?php include 'utilitaires/modal.php'; ?>
    
   <script type="text/javascript" src="./js/app.js"></script>
 

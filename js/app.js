@@ -1,5 +1,5 @@
 var article = document.querySelectorAll('.article');
-var upper = document.getElementById('upper');
+var upper = document.querySelector('#upper');
 
 // Tout les articles (qui sont des <li> dans le html), doivent avoir comme attribut:  data-toggle:"modal" et  data-target:"#exampleModal"
 // pour que quand on clique sur chacun, le pop-up (modal) s'affiche.
@@ -9,12 +9,17 @@ article.forEach(article => {
   article.setAttribute('data-target' , '#exampleModal');  
 });
 
-// Faire apparaitre et disparaitre le link ancre (#upper dans le html) selon notre positionnement dans la fenêtre.
-function scrol(){
-  var position = window.pageYOffset;
-
-  if(position > 500) upper.style.display = "block";
+// Faire apparaitre et disparaitre le bouton pour remonter en haut de la page selon notre positionnement dans la fenêtre.
+window.addEventListener('scroll', () => {
+  if(window.pageYOffset > 500) upper.style.display = "block";
   else upper.style.display = "none";
-}
-// faire appel à la fonction "scrol" quand on scroll la page.
-window.addEventListener('scroll', scrol);
+} );
+
+// L'effet du bouton
+upper.addEventListener('click', () => {
+  window.scrollTo({
+    top : 0,
+    letf : 0,
+    behavior : "smooth"
+  });
+});

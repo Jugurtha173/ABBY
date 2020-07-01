@@ -75,44 +75,42 @@
         <span class="sr-only">Next</span>
       </a>
     </div>
-  </div>
+   </div>
 
-    <ul class="pull">
-        <h2>HAUTS</h2>
-        <ol class="articles">
-          <?php
-            affiche_produit("haut"); 
-          ?>
-        </ol>
-    </ul>
-           
-    <ul class="pantalon">
-        <h2>PANTALONS</h2>
-        <ol class="articles">
-          <?php
-            affiche_produit("pantalon"); 
-          ?>
-        </ol>
-    </ul>  
+   <ul class="pull">
+      <h2>HAUTS</h2>
+      <ol class="articles">
+         <?php
+         affiche_produit("haut"); 
+         ?>
+      </ol>
+   </ul>
+         
+   <ul class="pantalon">
+      <h2>PANTALONS</h2>
+      <ol class="articles">
+         <?php
+         affiche_produit("pantalon"); 
+         ?>
+      </ol>
+   </ul>  
 
-    <ul class="chaussure">
-        <h2>CHAUSSURES</h2>
-        <ol class="articles">
-          <?php
-            affiche_produit("chaussure"); 
-          ?>
-        </ol>
-    </ul>  
+   <ul class="chaussure">
+      <h2>CHAUSSURES</h2>
+      <ol class="articles">
+         <?php
+         affiche_produit("chaussure"); 
+         ?>
+      </ol>
+   </ul>  
 
-
-
-    <a id="upper"  href="#begin"><img src="./img/arrow-alt-circle-up-solid.svg" alt=""></a>
+   <img id="upper" src="./img/arrow-alt-circle-up-solid.svg" alt="Revenir en haut">
  
- <?php include 'utilitaires/footer.php'; ?>
-       
- <?php include 'utilitaires/modal.php'; ?>
+   <?php include 'utilitaires/footer.php'; ?>
+         
+   <?php include 'utilitaires/modal.php'; ?>
 
-  <script type="text/javascript" src="./js/app.js"></script>
+   <script type="text/javascript" src="./js/app.js"></script>
 
 
 </body>

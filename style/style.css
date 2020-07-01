@@ -215,21 +215,19 @@ span{
     margin: 3px ;
     padding: 0;
     font-weight: bold;
- 
-
-    /* display: none; */
-}
+ }
 
 .price::after {
     content: ' $';
 }
 
-/* --------------------------------------------------footer---------------------------------------- */
-#upper{
-    display: none;
+@keyframes slideUp {
+    from { transform: translateY(0); }
+    to   { transform: translateY(-20px); }
 }
 
-#upper img{ 
+#upper {
+    display: none;
     width: 40px;
     transition: 0.5s ease;
     background-color: rgba(255, 255, 255, 0.75);
@@ -239,13 +237,15 @@ span{
     color: #ebedee;
     margin: 3px;
     border-radius: 50%;
-
+    transition: ease 0.5s;
 }
-#upper img:hover{
-transition: ease 0.5s;
-transform: rotate(360deg);
 
+#upper:hover{
+    transition: ease 0.5s;
+    animation: .5s linear infinite alternate slideUp;
 }
+
+/* --------------------------------------------------footer---------------------------------------- */
 
 footer{
     width: 100%;
